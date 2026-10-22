@@ -1,0 +1,73 @@
+# =========================
+# Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# NestJS
+server/dist/
+server/.nestjs/
+
+# Next.js
+client/.next/
+client/out/
+
+# =========================
+# Python
+# =========================
+python.prediction.model.api/venv/
+python.prediction.model.api/.venv/
+python.prediction.model.api/__pycache__/
+python.prediction.model.api/**/__pycache__/
+python.prediction.model.api/*.py[cod]
+python.prediction.model.api/**/.*.py[cod]
+
+# Python testing / tooling
+python.prediction.model.api/.pytest_cache/
+python.prediction.model.api/.mypy_cache/
+python.prediction.model.api/.ruff_cache/
+python.prediction.model.api/.coverage
+python.prediction.model.api/htmlcov/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Build / Temporary
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
