@@ -20,7 +20,7 @@ for i in range(3):
 # Desired output
 for i in range(3):
     desired[i] = float(input("Desired output: "))
-
+  
 # Learning rate
 a = float(input("Enter learning rate: "))
 
